@@ -407,8 +407,8 @@ cc_library_shared {
     vendor_available: true,
     vndk: {
         enabled: true,
+        private: true,
     },
-    double_loadable: true,
     defaults: ["libgui_defaults"]
 }
 
